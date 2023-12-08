@@ -38,10 +38,10 @@ def mask_to_yolo(mask_path, yolo_path):
                     f.write("\n")
             f.close()
 
-mask_path_train = "/project/train/src_repo/yolov8/datasets/masks/train"
-yolo_path_train = "/project/train/src_repo/yolov8/datasets/labels/train"
+mask_path_train = "/project/train/src_repo/yolov8/datasets/masks/train" # 用于训练的mask路径
+yolo_path_train = "/project/train/src_repo/yolov8/datasets/labels/train" # 输出的txt路径
 mask_to_yolo(mask_path_train, yolo_path_train)
 
-mask_path_val = "/project/train/src_repo/yolov8/datasets/masks/val"
-yolo_path_val = "/project/train/src_repo/yolov8/datasets/labels/val"
+mask_path_val = "/project/train/src_repo/yolov8/datasets/masks/val" # 用于验证的mask路径
+yolo_path_val = "/project/train/src_repo/yolov8/datasets/labels/val" # 输出的txt路径
 mask_to_yolo(mask_path_val, yolo_path_val)
