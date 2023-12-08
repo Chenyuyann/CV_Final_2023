@@ -45,7 +45,7 @@ if __name__ == "__main__":
     dataset_directory = './2788'
 
     # 输出目录
-    output_images_directory = '/project/train/src_repo/yolov8/datasets/images'
-    output_masks_directory = '/project/train/src_repo/yolov8/datasets/masks'
+    output_images_directory = '/project/train/src_repo/yolov8/datasets/images' # 把数据集里的jpg文件放在该文件夹
+    output_masks_directory = '/project/train/src_repo/yolov8/datasets/masks' # 把数据集里的png文件放在该文件夹
 
     split_custom_dataset(dataset_directory, output_images_directory, output_masks_directory)
