@@ -1,2 +1,2 @@
 # CV_Final_2023
-需要在/project/train/src_repo/文件夹下新建yolov8/datasets文件夹。
+所有文件放在/project/train/src_repo文件夹下，执行bash /project/train/src_repo/run_mask_seg.sh即可。
